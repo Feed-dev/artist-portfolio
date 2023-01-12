@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yourname</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">yourname.</td>
+                <td id="navigation">
+                    <a href="#work">work</a>
+                    <a href="#bio">about</a>
+                    <a href="">blog</a>
+                    <a href="#contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>this is where you put your about or tagline</h1>
+                <button class="btn_one">Hire Me</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="work">
+        <h1>work</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/b0565ffe-81af-4cb4-9050-534f2af8e506/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/5445694c-3343-412b-bbf8-14b4e365e63c/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/826c70d8-c386-459d-9bd9-f0403d47ffb6/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/36b0b78b-daf2-4001-8335-8bdae7ee9e8e/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/41afe2e7-cc67-4263-b281-77872214941d/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/cecbd264-fd2b-4a8f-87b4-5e72ee27fdfe/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/45368f87-d52f-4cf5-8979-f83ac27c3724/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/b76022ac-e77c-48f2-bf28-507848825ae2/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/f23af526-a50e-4a06-8b2e-fa3eb9999590/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/3af4cdbc-bac4-4ccc-b3bf-a81dd60a8974/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/466036e7-29ac-4a2e-b240-02214ff33a70/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/448fbd61-ca7d-4b34-9f50-b1140da39d21/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/3527676b-c986-4176-955c-9a845f66e946/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/803cfa93-4dea-4540-9cda-9b4a98c378ec/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/8b8fbb0f-b8bf-4b8a-898c-b3697c2b6ede/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/5ca82986-0ccf-4495-9edb-0086f9191bdb/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/48a7a433-95fd-47ac-bc78-283c64e18b1c/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/9f88dfbb-ec67-45a7-8e01-84472fa6a49e/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/6370c7c7-c2cf-45e2-baaf-b3e125b3cf6a/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/4d14a72f-ab72-48ef-80fc-1518aa60e394/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/f4bf43ed-9f17-4dd1-b05a-e8e039c17af4/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/369aacfa-6d8f-4979-b562-6702ad1f1912/grid_0.png">
+            <img onclick="magnify($(this).attr('src'))" src="https://cdn.midjourney.com/348a1369-e7d1-47b4-b52b-9f7298f11cc8/grid_0.png">
+        </div>
+    </div>
+    <div id="bio">
+        <h1>about</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
+                                </tr>
+                                 <tr>
+                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Street 123,<br>
+                                        blah blah city,<br>
+                                        blah blah country
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i class="fab fa-facebook"></i></a>
+                                        <a class="social"><i class="fab fa-twitter"></i></a>
+                                        <a class="social"><i class="fab fa-instagram"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a>
+                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
